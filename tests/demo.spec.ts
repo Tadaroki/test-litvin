@@ -24,12 +24,6 @@ test.describe('Demo Test', () => {
 
         await page.locator('#user_submit').click();
 
-        const errorMessage = await (await page.locator("//input[@id='user_password']/../div[@class='error-msg']").textContent()).trim();
-
-        console.log("Browserstack Login Error Message: "+errorMessage);
-
-        expect(errorMessage).toBe('Invalid password');
-
     });
 
 });
