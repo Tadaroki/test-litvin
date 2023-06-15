@@ -2,12 +2,15 @@
   "name": "js-basic",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "array.js",
   "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.34.0"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
   }
 }
